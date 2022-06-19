@@ -1,6 +1,5 @@
-# Ignore everything
-*
+# Ignore everything in siglo2-git
+siglo2-git/*
 
 # But not these files...
-!.gitignore
-!*/PKGBUILD
+!siglo2/PKGBUILD
