@@ -1,0 +1,22 @@
+# Maintainer: Alex R <https://twitter.com/theironrobin>
+pkgname=siglo2
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Installs siglo2 CLI App"
+arch=(aarch64)
+url="https://github.com/theironrobin/siglo2"
+license=('MPL-2.0')
+depends=('python')
+makedepends=('git')
+provides=(siglo2)
+source=("git+$url")
+md5sums=('SKIP')
+
+build() {
+	echo "Skip Build for now; It's just a python script."
+}
+
+package() {
+	cd "$pkgname"
+	ls
+}
