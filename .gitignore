@@ -2,4 +2,4 @@
 siglo2-git/*
 
 # But not these files...
-!siglo2/PKGBUILD
+!siglo2-git/PKGBUILD
